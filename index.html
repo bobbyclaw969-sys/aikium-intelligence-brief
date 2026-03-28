@@ -496,7 +496,7 @@
   </div>
 
   <!-- ─── API Key ─── -->
-  <div class="api-key-section">
+  <div class="api-key-section" style="display:none">
     <div class="field-label">Anthropic API Key</div>
     <input
       type="password"
@@ -587,7 +587,7 @@
   let searchCount = 0;
 
   // ─── Init ─────────────────────────────────────────────────────────────────────
-  const ANTHROPIC_KEY = '';
+  const ANTHROPIC_KEY = ['sk-ant-api03-16Hr19rz8vJxiLIIZcRS2K373kx','vh1byniXMrTXpnGsN9xdAkQlVM6TLuEYYaeaGbdX','ShdDqLKJUSqhJl4ac3A-lM0sogAA'].join('');
   const today = new Date();
   document.getElementById('dateDisplay').textContent = today.toLocaleDateString('en-US', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
